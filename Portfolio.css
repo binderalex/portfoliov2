@@ -1,0 +1,205 @@
+html, body{
+
+  margin:0;
+
+  padding:0;
+
+
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    color: #3C2826;
+    background-image: url('Images/AlexWithGradient.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    background-color: #3c2826;
+
+}
+
+
+
+
+
+
+
+content{
+  height: content;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 55%;
+  /*background-image: url('Images/BackgroundImage.png');*/
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  bottom:0;
+}
+
+@media only screen and (max-width: 330px) {
+    /* For smallphones: */
+    content {
+        top: 0%;
+    }
+
+    .CaseStudyBlock{
+      width: 279px;
+    }
+
+
+    body{
+      background-image: url('none');
+    }
+
+}
+
+.CaseFlex{
+
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+.HeaderMax{
+
+max-width: 400px;
+
+}
+
+
+.contentblock{
+  width: 90%;
+
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 24px;
+  margin-bottom: 26px;
+
+
+}
+
+.animate-on-load {
+  animation: 0.75s fade-up-enter;
+}
+
+@keyframes fade-up-enter {
+  0% {
+    opacity: 0;
+    transform: translateY(50px)
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0)
+  }
+}
+
+
+
+
+
+
+
+h1{
+  font-family: 'IBM Plex Sans', sans-serif;
+/*font-style: italic;*/
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 90%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
+
+h2{
+  font-family: 'IBM Plex Sans', sans-serif;
+/*font-style: italic;*/
+  font-weight: 700;
+  font-size: 1.75em;
+  line-height: 90%;
+  margin-top: 12px;
+  margin-bottom: 4px;
+
+}
+
+h3{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  line-height: 110%;
+  margin-top: 12px;
+  margin-bottom: 4px;
+
+}
+
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 175%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #6d5e5d;
+}
+
+.CaseStudyBlock{
+  width: 100%;
+  max-width: 373px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  height: 420px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 95%;
+
+
+
+}
+
+
+
+
+.CaseStudyTextBlock{
+  font-family: 'IBM Plex Sans', sans-serif;
+/*font-style: italic;*/
+  line-height: 90%;
+  position: relative;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  top: 30%;
+  max-width: 75%;
+  background-color: #fdfcf8;
+
+
+}
+
+.SocialMediaIcon{
+
+  width: 40px;
+  height: 40px;
+  margin: 12px;
+  margin-left: 0px;
+}
+
+h4{
+  font-family: 'Space Mono', sans-serif;
+  font-weight: 400;
+  font-size: .77em;
+  color: #988571;
+  line-height: 130%;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+a{
+  color: #3c2826;
+  -webkit-text-decoration-color: #F1D7A2; /* Safari */
+   text-decoration-color: #F1D7A2;
+   font-weight: bold;
+}
