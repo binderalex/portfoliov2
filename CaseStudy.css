@@ -11,19 +11,27 @@ body {
 
     display: flex;
     justify-content: center;
-    color: #3C2826;
-    background-image: url('Images/AlexWithGradient.png');
+    color: #005C96;
+    background-image: url('Images/PhysicalTherapyBackground.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center;
     background-size: cover;
-    background-color: #3c2826;
+    background-color: #FFFFFF;
 
 }
 
 
-
-
+.appicon{
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 90%;
+  margin-left: 15px;
+  width: 115px;
+  height: 115px;
+  position: relative;
+  bottom: 120px;
+}
 
 
 
@@ -34,7 +42,7 @@ content{
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 55%;
+  top: 70%;
   /*background-image: url('Images/BackgroundImage.png');*/
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -44,12 +52,11 @@ content{
 @media only screen and (max-width: 330px) {
     /* For smallphones: */
     content {
-        top: 0%;
+        top: 25%;
     }
 
-    .CaseStudyBlock{
-      width: 279px;
-    }
+
+
 
 
     body{
@@ -75,10 +82,11 @@ max-width: 400px;
 
 .contentblock{
   width: 90%;
+  max-width: 500px;
 
-  margin-left: 5%;
+  margin-left: 15px;
   margin-right: 10%;
-  margin-top: 24px;
+  margin-top: -100px;
   margin-bottom: 26px;
 
 
@@ -145,22 +153,9 @@ p{
   line-height: 175%;
   margin-top: 8px;
   margin-bottom: 8px;
-  color: #6d5e5d;
+  color: #005C96;
 }
 
-.CaseStudyBlock{
-  width: 300px;
-  /*max-width: 373px;*/
-  margin-top: 8px;
-  margin-bottom: 20px;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-size: 95%;
-
-
-
-}
 
 
 
@@ -191,7 +186,7 @@ h4{
   font-family: 'Space Mono', sans-serif;
   font-weight: 400;
   font-size: .77em;
-  color: #988571;
+  color: #337dab;
   line-height: 130%;
   margin-top: 0px;
   margin-bottom: 8px;
