@@ -125,7 +125,14 @@ max-width: 400px;
 
 
 
+.caption{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 700px;
+  text-align:center;
 
+}
 
 
 h1{
@@ -163,13 +170,14 @@ h3{
 }
 
 
+
 p{
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   line-height: 175%;
   margin-top: 8px;
   margin-bottom: 8px;
-  color: #005C96;
+  color: #5a5a5a;
 }
 
 
@@ -188,7 +196,7 @@ h5{
   font-family: '  Open Sans', sans-serif;
   font-weight: 400;
   font-size: .77em;
-  color: #337dab;
+  color: #5a5a5a;
   line-height: 130%;
   margin-top: 0px;
   margin-bottom: 8px;
