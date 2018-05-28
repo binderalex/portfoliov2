@@ -52,8 +52,8 @@
       </br>
       <h4 style="float:left;">15 Minutes</h4> <h4 style="float:left; margin-left:20%;">30 Minutes</h4>
     </br>
-      <div class="PhotoFlex">
-        <div class="PhotoBlock">
+      <div class="ListFlex">
+        <div class="ListBlock">
           <div class="StepActive" style="float:left; width:15px; height:15px; margin-right: 10px; "></div> <h4>USING ASPIRE</h4>
           <ul>
             <li>
@@ -69,7 +69,7 @@
             </ul>
           </div>
 
-          <div class="PhotoBlock">
+          <div class="ListBlock">
             <div class="StepInactive" style="float:left; width:15px; height:15px; margin-right: 10px; "></div> <h4>NOT USING ASPIRE</h4>
 
             <ul>
@@ -184,6 +184,125 @@
       <div class="caption">
         <h4> Transition from Trials Screen to an early version of the Results Screen. Implemented with <a href="https://airbnb.design/introducing-lottie/">Lottie for iOS</a> and standard iOS modal transition. </h4>
       </div>
+    </br>
+    </br>
+    </br>
+    </br>
+
+    <div class="contentblock">
+        <h2> Poor Error Prevention </h2>
+        <h4> The Setup Process </h4>
+        <p>
+          Based on the stakeholder interviews we conducted earlier and observation during our private beta. One of the largest blocker for clinicians using the companion app was the setup process right before starting a trial or game session.
+        </p>
+        </br>
+        <p>
+          The setup process involved various steps that must be completed in a specific sequence. This process required clinicians to bounce between:
+        </p>
+
+      </br>
+      </br>
+
+        <div class="PhotoFlex">
+          <div class="PhotoBlock" style="background-image:url('Images/FaceWithElectrodes.png'); width:240px; height:240px;"></div>
+
+          <div class="PhotoBlock">
+            <h1 class="pattern">1</h1>
+            <p> Putting multiple electrodes on their patient (in precise locations)</p>
+          </div>
+        </div>
+
+        </br>
+        </br>
+
+        <div class="PhotoFlex">
+          <div class="PhotoBlock" style="background-image:url('Images/SwitchingModes.png'); width:240px; height:240px;"></div>
+
+          <div class="PhotoBlock">
+            <h1 class="pattern">2</h1>
+            <p> Navigating to the right mode on the Aspire Device by pressing the M button.</p>
+          </div>
+        </div>
+
+
+        </br>
+        </br>
+
+        <div class="PhotoFlex">
+          <div class="PhotoBlock" style="background-image:url('Images/HitPlayButton.png'); width:240px; height:240px;"></div>
+
+          <div class="PhotoBlock">
+            <h1 class="pattern">3</h1>
+            <p> Then hit the play button on said Aspire Device</p>
+          </div>
+        </div>
+
+      </br>
+      </br>
+
+      <div class="PhotoFlex" style="margin-bottom:100px;">
+        <div class="PhotoBlock" style="background-image:url('Images/TrialsScreen.png'); width:240px; height:240px;"></div>
+
+        <div class="PhotoBlock">
+          <h1 class="pattern">4</h1>
+          <p> Then going back to their phone or tablet and starting up the trial or game</p>
+        </div>
+      </div>
+
+    <h3> Solution </h3>
+    <h4> The Setup Checklist </h4>
+    <p>
+      We found that the best way to handle these errors were to run a check right when the user hits the start button to make sure all of the proper conditions were met. If one of these conditions were not met we would launch a wizard that takes the clinician through the setup process step by step.
+    </p>
+  </div>
+
+  <img src="Images/ErrorWizardFlowChart.png">
+  <div class="caption">
+      <h4> This interaction pattern occurs when the Aspire device is in the wrong mode.</h4>
+  </div>
+
+</br>
+</br>
+</br>
+</br>
+
+  <div class="contentblock">
+    <h2> Error State System </h2>
+    <h4> Illustration System </h4>
+      <p>
+        There were multiple places where this style of error occurs through out the app. So this provided an opportunity to come up with a cohesive illustration system to help guide clinicians through the set up process.
+      </p>
+    </br>
+      <p>
+        The goal was to use on-brand accent colors to highlight the parts of the device clinicians should focus on.
+      </p>
+
+    </br>
+    </br>
+
+      <div class="PhotoFlex">
+        <div class="PhotoBlock" style="background-image:url('Images/FaceWithElectrodes.png'); width:240px; height:240px;"></div>
+        <div class="PhotoBlock" style="background-image:url('Images/LooseLeadWire.png'); width:240px; height:240px;"></div>
+      </div>
+
+      <div class="PhotoFlex">
+        <div class="PhotoBlock" style="background-image:url('Images/LoosePlug.png'); width:240px; height:240px;"></div>
+        <div class="PhotoBlock" style="background-image:url('Images/SwitchingModes.png'); width:240px; height:240px;"></div>
+      </div>
+
+      <div class="PhotoFlex">
+        <div class="PhotoBlock" style="background-image:url('Images/HitPlayButton.png'); width:240px; height:240px;"></div>
+        <div class="PhotoBlock" style="background-image:url('Images/Success.png'); width:240px; height:240px;"></div>
+      </div>
+
+      <div class="PhotoFlex">
+        <div class="PhotoBlock" style="background-image:url('Images/LooseElectrodeAlertKickoff.png'); width:240px; height:240px;"></div>
+        <div class="PhotoBlock" style="background-image:url('Images/ModeAlertKickoff.png'); width:240px; height:240px;"></div>
+      </div>
+
+  </div>
+
+
       <!--
           <div class="contentblock">
             <h2> High Fidelity UI </h2>
