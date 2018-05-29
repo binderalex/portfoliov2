@@ -279,6 +279,24 @@ margin: 0 auto 20px auto;
     margin: 0 auto 0 auto;
   }
 
+  .video-responsive{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+      max-width: 800px;
+      max-height: 400px;
+      margin: 0 auto 0 auto;
+  }
+  .video-responsive iframe{
+      left:0;
+      top:0;
+      max-width: 800px;
+      max-height: 400px;
+      height:100%;
+      width:100%;
+      position:absolute;
+  }
 
 
   .StepActive{
